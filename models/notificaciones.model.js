@@ -9,6 +9,6 @@ const notificacionSchema = new mongoose.Schema({
 // contenido en textp
 });
 
-const User = mongoose.model('Notificacion', notificacionSchema);
+const Notificacion = mongoose.model('Notificacion', notificacionSchema);
 
 export default Notificacion;

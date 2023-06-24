@@ -1,7 +1,7 @@
 // src/models/userModel.js
 import mongoose from 'mongoose';
 
-const Empresa  = new mongoose.Schema({
+const empresaSchema  = new mongoose.Schema({
   codigo: { type: string, required: true, unique: true },
   nombrefiscal: { type: String, required: true, unique: true },
   nombrecomercial: { type: String, required: true },
@@ -10,6 +10,6 @@ const Empresa  = new mongoose.Schema({
 
 });
 
-const User = mongoose.model('Empresa', empresaSchema);
+const Empresa = mongoose.model('Empresa', empresaSchema);
 
 export default Empresa;
