@@ -16,6 +16,7 @@ const contactoSchema  = new mongoose.Schema({
   email: { type: String, required: true },
   linkedin: { type: String, required: true },
   idioma: { type: String, required: true },
+  timestampscreation: { type: String, required: true },
 
 });
 
