@@ -6,7 +6,7 @@ const notificacionSchema = new mongoose.Schema({
   contenido: { type: String, required: true },
   timestampscreation: { type: String, required: true },
   timestampshidden: { type: String, required: true },
-  itsvisible: { type: String, required: true },
+  itsvisible: { type: boolean, required: true },
 
 // visible es booleana inicializada en true
 // timestamps creacion
