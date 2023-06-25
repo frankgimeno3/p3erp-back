@@ -7,7 +7,7 @@ const empresaSchema  = new mongoose.Schema({
   nombrecomercial: { type: String, required: true },
   telefonobase: { type: String, required: true },
   emailbase: { type: String, required: true },
-
+  timestampscreation: { type: String, required: true },
 });
 
 const Empresa = mongoose.model('Empresa', empresaSchema);
